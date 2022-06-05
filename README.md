@@ -59,8 +59,14 @@
 - jobs
 
 > jobs: 작업이 중지된 상태나 백그라운드로 진행 중인 상태를 표시하는 명령어
+> ` jobs ` 와 같이 활용한다.
+>> job은 프로세스와는 달리 터미널 명령을 통한 작업만을 의미한다.
+>>
+>> job을 통해 프로세스를 실행할 수 있지만 terminal이 종료되면 job과 함께 프로세스도 종료된다.
+>>
+>> 터미널에 의존적이며, 각각의 터미널마다 job은 따로 존재한다.
 
-![job 명령어](https://user-images.githubusercontent.com/106869854/172036576-617617c3-ddbe-42a8-8c25-3989e8e2831d.png)
+![job 명령어](https://user-images.githubusercontent.com/106869854/172038142-333dab6c-2b20-4bdb-a34f-7cdb5794fa54.png)
 
 
 - kill
